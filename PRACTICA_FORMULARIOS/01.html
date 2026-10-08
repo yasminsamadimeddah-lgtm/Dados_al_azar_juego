@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 01 - Login</title>
+</head>
+<body>
+    
+    <h2>Iniciar Sesión</h2>
+    <!-- Usamos POST porque hay datos sensibles (contraseña) -->
+    <form action="01.php" method="POST">
+        <label>Usuario:</label><br>
+        <input type="text" name="usuario" required><br><br>
+
+        <label>Contraseña:</label><br>
+        <input type="password" name="clave" required><br><br>
+
+        <input type="submit" value="Entrar">
+    </form>
+</body>
+</html>
